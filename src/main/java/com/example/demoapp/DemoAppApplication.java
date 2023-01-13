@@ -15,9 +15,13 @@ public class DemoAppApplication {
    public String getMessage(){
        return "Welocome to EnggAdda";
    }
+   static Logger logger = Logger.getLogger(String.valueOf(DemoAppApplication.class));
 
     public static void main(String[] args) {
+
         SpringApplication.run(DemoAppApplication.class, args);
+        logger.info("hello everyone ");
+
     }
 
 }
