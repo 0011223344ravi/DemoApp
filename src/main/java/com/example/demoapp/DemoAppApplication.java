@@ -19,6 +19,7 @@ public class DemoAppApplication {
 
     public static void main(String[] args) {
 
+        System.out.println("Welcome to Enggadda");
         SpringApplication.run(DemoAppApplication.class, args);
         logger.info("hello everyone ");
 
