@@ -23,6 +23,9 @@ public class DemoAppApplication {
         SpringApplication.run(DemoAppApplication.class, args);
         logger.info("hello everyone ");
 
+
+        
+
     }
 
 }
