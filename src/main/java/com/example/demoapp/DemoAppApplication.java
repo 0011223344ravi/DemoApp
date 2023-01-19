@@ -9,7 +9,7 @@ import java.util.logging.Logger;
 
 @SpringBootApplication
 @RestController
-public class DemoAppApplication {
+public class DemoAppApplicatio {
 
    @GetMapping("/")
    public String getMessage(){
