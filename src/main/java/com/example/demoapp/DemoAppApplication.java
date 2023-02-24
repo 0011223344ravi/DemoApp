@@ -15,16 +15,19 @@ public class DemoAppApplication{
    public String getMessage(){
        return "Welocome to EnggAdda";
    }
+
+   @GetMapping("/get")
+   public String get(){
+       return "Hello Everyone Welcome to EnggAdda";
+   }
    static Logger logger = Logger.getLogger(String.valueOf(DemoAppApplication.class));
 
     public static void main(String[] args) {
 
-        System.out.println("Welcome to Enggadda");
         SpringApplication.run(DemoAppApplication.class, args);
-        logger.info("hello everyone ");
+       
 
-        System.out.println("feature-branch1");
-       System.out.println("code space");
+       
 
 
 
